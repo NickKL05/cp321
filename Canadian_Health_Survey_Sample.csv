@@ -1,0 +1,851 @@
+Province,Gender,Age,Income,BMI,PhysicalActivity,Smoking,SelfRatedHealth,StressLevel
+Ontario,female,59,80572.0,25.7,3.8,yes,Good,6
+New Brunswick,Male,38,125739.0,24.2,3.4,No,Good,9
+Nova Scotia,M,31,55997.0,35.7,,No,Excellent,
+Saskatchewan,Male,30,75947.0,28.3,3.9,No,Excellent,10
+Saskatchewan,female,79,113966.0,31.2,1.6,No,Fair,6
+Newfoundland and Labrador,F,24,101828.0,27.8,4.5,Y,Good,5
+Ontario,female,68,64076.0,24.3,0.9,Yes,Very Good,3
+Nova Scotia,female,72,82479.0,27.3,3.6,No,Very Good,8
+British Columbia,female,19,78040.0,34.4,2.9,yes,Good,4
+Ontario,Male,55,83639.0,30.0,4.1,No,Very Good,4
+Manitoba,Male,54,64026.0,18.6,3.7,N,Fair,8
+Prince Edward Island,Male,40,76214.0,,3.0,No,Good,8
+New Brunswick,Female,60,46039.0,36.1,0.4,Y,Very Good,8
+New Brunswick,female,43,80702.0,26.1,0.5,No,Very Good,4
+New Brunswick,male,45,87000.0,18.2,2.3,No,Very Good,5
+New Brunswick,M,45,73452.0,36.7,3.5,Yes,Poor,5
+Manitoba,Male,68,45699.0,30.6,2.3,No,Fair,7
+Quebec,female,57,97771.0,26.8,4.8,No,Poor,8
+Newfoundland and Labrador,Male,41,85291.0,25.3,2.9,Yes,Fair,6
+Saskatchewan,Female,76,63480.0,32.6,1.6,No,Poor,9
+Manitoba,female,68,72388.0,24.5,2.9,N,Good,7
+Alberta,F,76,47987.0,32.9,4.0,yes,Good,5
+Quebec,male,64,57492.0,29.9,4.1,Yes,Very Good,
+Prince Edward Island,Male,42,67244.0,28.4,7.3,yes,Good,9
+New Brunswick,male,66,102568.0,27.9,2.2,Yes,Poor,9
+Nova Scotia,Male,38,65210.0,26.3,3.4,No,Very Good,8
+Saskatchewan,M,35,90804.0,32.4,4.4,N,Poor,5
+Newfoundland and Labrador,female,46,67234.0,22.9,3.5,Yes,Excellent,5
+Manitoba,Male,79,82959.0,19.1,2.5,Yes,Poor,6
+Saskatchewan,Male,53,75172.0,30.3,0.4,Yes,Good,9
+Saskatchewan,Male,42,95461.0,30.4,2.5,No,Excellent,6
+British Columbia,F,47,67304.0,29.6,1.4,Y,Very Good,6
+Ontario,Female,36,46549.0,29.2,0.0,Yes,Very Good,5
+Manitoba,female,59,50361.0,25.6,1.9,Yes,Very Good,5
+Newfoundland and Labrador,male,40,67362.0,31.1,1.4,No,Fair,5
+Ontario,male,52,53019.0,27.0,4.7,No,Very Good,5
+Newfoundland and Labrador,Male,41,86204.0,24.8,4.7,No,Excellent,
+Newfoundland and Labrador,F,38,68685.0,25.6,1.7,no,Excellent,5
+British Columbia,Female,79,125492.0,37.3,3.0,No,Good,5
+Nova Scotia,male,39,43246.0,18.5,0.0,N,Good,3
+Quebec,female,22,82073.0,29.7,2.5,No,Very Good,7
+New Brunswick,male,41,55441.0,18.8,4.3,Y,Good,8
+New Brunswick,F,51,68132.0,26.7,5.1,No,Good,9
+Alberta,Male,23,80828.0,25.0,2.1,Yes,Fair,6
+Ontario,Female,37,31493.0,16.8,5.6,No,Fair,6
+Prince Edward Island,Female,28,82737.0,29.1,0.5,Yes,Good,5
+Saskatchewan,Female,49,116058.0,25.3,1.0,N,Fair,6
+Newfoundland and Labrador,Male,63,68931.0,16.7,4.9,No,Poor,6
+Nova Scotia,Male,79,83196.0,31.4,6.8,no,Poor,5
+New Brunswick,Female,42,98498.0,34.4,4.5,No,Excellent,5
+New Brunswick,Female,72,74721.0,34.7,3.4,No,Poor,6
+Quebec,Female,31,66381.0,29.0,0.0,No,Poor,5
+Alberta,male,67,32485.0,27.4,0.0,No,Good,5
+Saskatchewan,male,53,90820.0,33.8,3.8,No,Fair,9
+Saskatchewan,Female,65,75737.0,60.0,2.8,No,Excellent,10
+Ontario,Female,65,,32.9,1.3,no,Excellent,3
+Manitoba,Male,51,80532.0,22.5,3.6,No,Good,3
+Quebec,male,34,66326.0,28.2,3.7,Yes,Good,3
+New Brunswick,Female,51,67431.0,29.4,5.4,No,Good,5
+Nova Scotia,Male,70,90126.0,,3.8,No,Poor,7
+Prince Edward Island,Female,79,51232.0,,6.0,Yes,Good,6
+New Brunswick,Female,76,98946.0,38.6,3.5,No,Fair,6
+Alberta,Male,29,50046.0,30.4,3.3,No,Fair,6
+Prince Edward Island,male,55,64746.0,34.6,5.6,Yes,Good,4
+Saskatchewan,male,24,116459.0,28.1,1.5,No,Fair,5
+Alberta,female,60,100547.0,26.8,9.1,Yes,Fair,5
+Prince Edward Island,male,80,79952.0,29.1,4.3,No,Good,2
+Alberta,male,21,59189.0,23.1,4.3,Yes,Good,3
+Ontario,Female,59,67415.0,22.4,4.6,No,Fair,3
+Saskatchewan,female,77,79466.0,33.5,7.3,No,Poor,7
+New Brunswick,male,71,78750.0,34.1,5.1,N,Fair,6
+Quebec,Female,42,76183.0,22.2,0.3,Yes,Fair,6
+Saskatchewan,male,24,77383.0,32.0,6.3,No,Very Good,1
+Quebec,Female,76,73712.0,26.8,2.8,No,Excellent,2
+Nova Scotia,Female,76,49160.0,28.9,,No,Good,7
+Saskatchewan,female,54,67670.0,29.5,0.9,No,Good,1
+Alberta,M,79,96292.0,32.2,4.6,N,Very Good,8
+British Columbia,F,18,50633.0,27.6,2.2,N,Very Good,1
+Manitoba,Female,56,74209.0,34.3,3.7,No,Fair,7
+Nova Scotia,male,20,61605.0,28.7,2.9,Yes,Fair,3
+Prince Edward Island,female,76,80227.0,30.3,7.4,No,Good,7
+Saskatchewan,Female,60,70227.0,23.0,7.5,No,Good,10
+Quebec,female,75,107548.0,,3.6,No,Fair,1
+Newfoundland and Labrador,Female,53,88132.0,29.5,3.6,No,Good,7
+Nova Scotia,Male,23,51764.0,30.8,2.8,No,Good,1
+New Brunswick,Male,19,91425.0,19.2,5.7,No,Good,6
+Ontario,M,39,62507.0,23.1,2.8,No,Good,5
+Alberta,Male,64,66460.0,33.4,2.7,No,Very Good,5
+New Brunswick,Female,27,84276.0,28.6,5.5,No,Good,3
+Newfoundland and Labrador,Female,71,68165.0,17.6,2.4,No,Fair,7
+Saskatchewan,Male,33,95857.0,32.4,3.4,Yes,Fair,2
+Newfoundland and Labrador,Female,49,62510.0,24.5,0.3,No,Very Good,8
+Newfoundland and Labrador,female,30,65621.0,34.3,4.9,No,Good,4
+Alberta,Male,47,64873.0,26.8,7.4,No,Poor,2
+Newfoundland and Labrador,female,46,66687.0,28.2,4.9,Yes,Good,9
+British Columbia,M,18,99984.0,33.1,6.4,No,Very Good,5
+British Columbia,Female,53,90576.0,22.7,1.8,No,Very Good,9
+Nova Scotia,Male,67,112199.0,22.2,4.0,No,Excellent,8
+Nova Scotia,male,76,123353.0,26.2,1.6,N,Very Good,4
+Quebec,Male,38,57386.0,31.3,3.0,No,Good,5
+Newfoundland and Labrador,Female,73,79408.0,,5.0,N,Good,5
+Quebec,F,73,,18.9,3.7,Yes,Fair,8
+Newfoundland and Labrador,F,80,62448.0,31.3,0.7,No,Very Good,6
+Ontario,female,41,65398.0,24.2,0.9,Yes,Very Good,6
+New Brunswick,Female,71,56857.0,25.2,0.7,No,Fair,5
+New Brunswick,female,53,56962.0,17.9,4.5,Yes,Excellent,5
+New Brunswick,female,21,75114.0,23.8,7.6,No,Good,8
+Nova Scotia,Female,35,53666.0,27.2,6.2,No,Poor,5
+Saskatchewan,male,60,94843.0,31.9,0.0,No,Good,4
+New Brunswick,Male,28,59645.0,23.3,6.3,Yes,Excellent,4
+British Columbia,Male,45,134191.0,35.5,5.4,Yes,Excellent,4
+New Brunswick,male,66,68972.0,23.8,0.4,No,Good,2
+Manitoba,Male,27,79440.0,23.8,2.9,No,Excellent,4
+Saskatchewan,Male,49,52093.0,34.9,5.7,No,Excellent,8
+Manitoba,female,31,112122.0,28.3,4.6,No,Very Good,5
+Manitoba,F,51,100390.0,24.4,0.9,No,Excellent,7
+Ontario,male,33,83938.0,26.4,4.7,No,Good,1
+Quebec,female,78,51064.0,34.0,0.0,No,Very Good,6
+British Columbia,F,22,82213.0,34.5,3.1,No,Very Good,5
+Quebec,Male,78,55571.0,23.1,5.8,Yes,Very Good,4
+Saskatchewan,Female,67,107247.0,27.0,3.5,No,Fair,6
+Nova Scotia,Female,71,94184.0,27.7,2.5,Yes,Very Good,4
+Nova Scotia,Male,71,79909.0,22.3,5.3,No,Excellent,1
+Saskatchewan,female,29,29272.0,26.9,5.4,N,Good,7
+Newfoundland and Labrador,Female,76,58332.0,27.2,6.1,Y,Excellent,6
+Manitoba,Female,55,91755.0,32.9,5.2,No,Good,5
+Ontario,Male,78,102258.0,33.2,,No,Fair,3
+New Brunswick,Male,73,100183.0,25.6,5.0,No,Fair,2
+Manitoba,M,54,46160.0,26.1,4.0,Y,Very Good,6
+Nova Scotia,Male,41,84031.0,30.5,3.7,No,Good,9
+Manitoba,Male,25,98310.0,24.3,3.0,No,Good,6
+Manitoba,Female,24,44833.0,30.1,1.1,No,Very Good,2
+Ontario,Female,42,77842.0,26.8,1.6,Yes,Good,6
+Manitoba,male,69,83477.0,22.4,2.9,No,Good,5
+New Brunswick,Female,49,71985.0,22.4,4.0,N,Excellent,7
+Alberta,Male,48,40957.0,34.4,6.4,N,Very Good,6
+Nova Scotia,Male,33,71486.0,26.4,3.4,Yes,Very Good,1
+Ontario,M,53,71454.0,35.4,5.5,No,Very Good,6
+Alberta,male,58,75039.0,24.6,5.7,No,Excellent,3
+Saskatchewan,male,79,66731.0,28.7,3.0,No,Fair,2
+Prince Edward Island,male,63,69140.0,39.2,4.7,No,Good,5
+British Columbia,female,56,77206.0,21.9,3.0,Yes,Fair,6
+British Columbia,Male,75,86849.0,17.7,6.1,N,Good,2
+Saskatchewan,Female,44,71911.0,33.6,4.8,no,Very Good,7
+Prince Edward Island,male,76,69807.0,23.1,1.1,No,Very Good,7
+Newfoundland and Labrador,Female,41,79847.0,27.1,3.8,No,Good,5
+Ontario,M,26,39582.0,24.3,6.8,No,Poor,3
+British Columbia,Female,44,87541.0,28.5,3.1,No,Very Good,3
+Newfoundland and Labrador,female,26,77989.0,22.4,4.4,Yes,Excellent,7
+Ontario,M,25,78794.0,26.3,4.6,No,Good,2
+Newfoundland and Labrador,Female,73,97215.0,29.4,1.4,Yes,Fair,7
+British Columbia,M,68,38944.0,22.2,4.5,Y,Good,5
+Prince Edward Island,male,31,38523.0,23.7,0.7,No,Good,5
+British Columbia,M,70,83476.0,25.5,2.2,No,Good,2
+Saskatchewan,Female,22,77858.0,20.1,5.7,No,Good,5
+Nova Scotia,Female,35,81404.0,25.1,4.2,no,Very Good,6
+Quebec,male,62,68757.0,27.8,2.9,Yes,Good,2
+Manitoba,Male,37,91287.0,25.2,4.4,Yes,Good,6
+Manitoba,Female,64,96653.0,25.8,3.4,Yes,Poor,5
+New Brunswick,M,73,87680.0,27.1,,No,Excellent,4
+Prince Edward Island,male,22,72783.0,23.9,4.8,no,Good,7
+Nova Scotia,Male,19,35846.0,30.7,2.0,No,Good,1
+Saskatchewan,Female,77,93385.0,34.4,3.6,N,Fair,6
+Saskatchewan,Male,50,102435.0,24.9,2.9,No,Very Good,9
+Saskatchewan,Male,49,90891.0,29.6,0.3,No,Excellent,8
+Newfoundland and Labrador,F,47,60407.0,26.0,1.7,Yes,Poor,
+Alberta,Female,45,91476.0,29.0,6.6,No,Fair,5
+Quebec,Female,61,95211.0,35.0,4.3,No,Fair,4
+Alberta,male,54,109176.0,29.7,0.9,No,Very Good,5
+Ontario,Male,28,60478.0,18.3,0.4,No,Excellent,6
+Quebec,Female,57,73471.0,29.5,3.3,Y,Good,4
+Ontario,female,60,92945.0,33.4,6.6,no,Good,7
+New Brunswick,male,25,79148.0,26.1,3.1,No,Very Good,10
+New Brunswick,F,41,55653.0,32.2,6.1,No,Very Good,5
+Nova Scotia,male,67,86292.0,23.7,4.2,No,Fair,2
+Saskatchewan,Female,56,89573.0,19.8,4.4,No,Fair,2
+New Brunswick,female,26,79759.0,27.9,0.8,N,Good,7
+Quebec,M,20,82392.0,18.4,5.4,No,Very Good,5
+Prince Edward Island,female,54,72826.0,45.0,2.8,No,Very Good,7
+Manitoba,F,47,107566.0,33.6,5.2,Yes,Very Good,4
+Prince Edward Island,female,78,59986.0,17.7,1.9,No,Very Good,7
+Quebec,M,50,66254.0,20.8,3.9,No,Good,5
+Saskatchewan,Male,76,78220.0,22.0,4.2,No,Good,4
+Nova Scotia,female,31,95579.0,26.9,3.2,N,Poor,4
+Saskatchewan,Female,46,48053.0,25.4,4.3,no,Excellent,3
+Saskatchewan,male,26,51794.0,34.2,3.0,Yes,Very Good,9
+Quebec,male,54,37245.0,32.0,2.2,No,Good,5
+Alberta,F,29,78654.0,29.7,6.7,No,Poor,7
+British Columbia,F,49,55634.0,27.9,5.6,No,Very Good,4
+Alberta,Female,39,70309.0,29.2,2.0,No,Very Good,3
+Nova Scotia,female,29,91228.0,22.9,4.6,N,Very Good,5
+Nova Scotia,female,24,65169.0,31.5,2.0,No,Fair,8
+Nova Scotia,Female,50,82626.0,21.6,1.1,Yes,Excellent,4
+Alberta,Male,77,72013.0,31.4,5.6,No,Very Good,3
+Prince Edward Island,Male,30,91442.0,33.1,0.1,No,Very Good,6
+Ontario,female,43,87503.0,28.3,5.4,No,Very Good,6
+Alberta,Female,32,64161.0,26.3,3.0,Yes,Excellent,9
+Quebec,F,68,74627.0,29.2,3.1,No,Excellent,6
+Alberta,Female,44,98875.0,,4.3,No,Very Good,7
+Prince Edward Island,F,79,85868.0,28.7,4.7,No,Good,7
+Alberta,Female,33,50061.0,26.6,1.8,No,Good,3
+Prince Edward Island,female,23,91112.0,26.9,4.9,No,Very Good,3
+Saskatchewan,Male,54,56308.0,30.7,3.7,No,Very Good,3
+Nova Scotia,male,59,106250.0,26.8,1.0,No,Poor,2
+Saskatchewan,female,80,98482.0,21.5,3.2,N,Fair,7
+British Columbia,F,72,83798.0,26.5,6.3,Yes,Excellent,6
+New Brunswick,female,73,81145.0,27.5,6.9,Yes,Excellent,
+Prince Edward Island,Male,57,73819.0,27.8,4.9,No,Excellent,1
+British Columbia,Female,40,91570.0,28.0,1.1,No,Good,10
+New Brunswick,Male,45,70584.0,32.4,4.5,No,Very Good,3
+British Columbia,Male,26,82711.0,21.8,5.2,No,Very Good,10
+New Brunswick,male,45,95439.0,28.1,5.0,No,Good,2
+New Brunswick,female,40,66764.0,33.6,5.1,Yes,Fair,3
+Saskatchewan,female,20,65676.0,18.5,4.2,No,Excellent,1
+New Brunswick,M,30,54113.0,28.1,3.4,No,Poor,6
+British Columbia,female,51,,24.3,2.3,N,Very Good,3
+Ontario,female,41,41432.0,25.3,0.0,No,Very Good,3
+Ontario,Male,80,92597.0,22.7,4.2,No,Very Good,2
+Saskatchewan,Male,48,114178.0,26.4,3.9,No,Good,7
+Prince Edward Island,male,78,106507.0,36.4,4.6,No,Very Good,7
+Quebec,M,59,45478.0,20.9,0.8,No,Fair,9
+Saskatchewan,Male,20,92497.0,,4.8,No,Very Good,4
+New Brunswick,Female,30,,20.7,7.6,No,Fair,6
+British Columbia,male,62,68864.0,35.8,3.7,No,Very Good,2
+New Brunswick,Male,52,80029.0,24.9,3.4,No,Very Good,4
+Alberta,Female,37,37842.0,27.1,4.1,No,Fair,4
+Newfoundland and Labrador,M,50,83335.0,25.2,7.6,No,Fair,6
+Manitoba,male,74,56729.0,22.5,1.5,Yes,Very Good,7
+Manitoba,Male,42,81993.0,26.0,3.9,No,Fair,7
+Quebec,M,20,46776.0,39.5,1.9,N,Fair,3
+Saskatchewan,Female,37,88857.0,34.2,2.4,Yes,Good,7
+Newfoundland and Labrador,M,76,98490.0,22.9,3.4,No,Excellent,5
+Ontario,Female,65,62336.0,30.4,6.2,Yes,Good,5
+New Brunswick,male,70,55262.0,23.0,7.1,Yes,Good,4
+Saskatchewan,Female,75,34880.0,18.3,4.4,no,Excellent,4
+New Brunswick,Female,25,5000.0,32.3,2.7,No,Good,9
+Nova Scotia,M,35,66368.0,33.0,8.5,No,Good,6
+Saskatchewan,Male,21,46980.0,32.4,2.6,No,Good,6
+Alberta,Male,18,87060.0,24.9,2.4,no,Good,5
+Nova Scotia,Female,70,69001.0,26.4,0.0,No,Good,10
+Quebec,female,77,56485.0,30.9,6.3,No,Very Good,8
+Manitoba,female,27,,29.2,5.4,No,Poor,4
+Ontario,F,63,99426.0,25.2,8.3,Yes,Very Good,5
+Nova Scotia,Female,51,90059.0,19.1,0.7,No,Fair,5
+Nova Scotia,Female,22,75399.0,27.8,6.4,Yes,Good,6
+Ontario,Male,75,90382.0,32.6,3.6,No,Fair,
+New Brunswick,male,72,54782.0,21.2,5.1,No,Good,6
+Saskatchewan,F,53,78647.0,30.4,0.2,No,Very Good,8
+New Brunswick,female,62,80946.0,28.9,6.4,No,Good,2
+Ontario,male,43,68603.0,31.0,5.1,No,Fair,3
+Quebec,Female,67,86709.0,31.6,3.4,Yes,Fair,4
+Saskatchewan,M,46,62391.0,23.7,4.8,No,Very Good,4
+Quebec,Female,80,88196.0,19.1,2.0,no,Good,9
+Alberta,Male,21,89037.0,24.5,2.3,No,Very Good,7
+Nova Scotia,Female,28,19657.0,31.6,2.6,No,Good,7
+Quebec,Male,79,101806.0,24.5,0.0,Y,Fair,5
+Nova Scotia,Male,36,17047.0,23.7,5.2,Yes,Very Good,5
+Quebec,Male,37,65679.0,18.1,5.9,No,Good,2
+Quebec,Female,67,98507.0,36.0,2.1,No,Poor,7
+Manitoba,male,29,71654.0,31.3,4.2,Yes,Excellent,6
+New Brunswick,Female,50,48676.0,31.0,3.0,No,Fair,8
+Quebec,Female,36,56125.0,,4.2,No,Good,5
+British Columbia,F,30,98538.0,30.1,2.2,No,Good,5
+Prince Edward Island,female,78,39570.0,26.0,1.7,N,Good,6
+Prince Edward Island,male,30,100580.0,26.4,5.6,Yes,Very Good,7
+Manitoba,Female,23,76898.0,25.1,3.4,No,Poor,2
+Saskatchewan,M,60,54152.0,40.4,7.5,N,Excellent,7
+Alberta,Male,72,66338.0,30.0,3.6,No,Very Good,5
+Nova Scotia,Female,26,57656.0,24.9,1.6,Y,Excellent,3
+Manitoba,M,62,95325.0,29.5,6.0,Yes,Very Good,1
+British Columbia,male,52,92649.0,22.1,4.8,No,Excellent,5
+Ontario,female,70,43617.0,34.7,5.0,Yes,Very Good,8
+Quebec,male,25,69928.0,23.9,5.9,No,Good,9
+Prince Edward Island,male,79,60736.0,29.7,2.2,No,Good,6
+Saskatchewan,Female,57,103870.0,32.5,3.2,N,Very Good,9
+Saskatchewan,Male,71,50998.0,29.1,3.2,no,Good,5
+Saskatchewan,Female,40,110085.0,27.7,0.9,No,Very Good,7
+New Brunswick,Male,77,77334.0,27.3,3.0,No,Fair,4
+Ontario,M,57,54761.0,26.9,6.2,No,Very Good,4
+Ontario,Female,25,64455.0,24.3,4.0,N,Fair,4
+British Columbia,male,76,61968.0,25.0,0.8,No,Excellent,1
+Saskatchewan,female,68,52508.0,34.6,0.4,N,Fair,8
+Nova Scotia,female,36,79897.0,26.7,6.8,No,Fair,4
+Saskatchewan,Female,52,53442.0,23.3,3.3,No,Very Good,4
+Saskatchewan,Female,42,34393.0,24.6,2.2,No,Very Good,3
+Prince Edward Island,F,52,70406.0,32.7,3.0,No,Very Good,5
+Quebec,male,78,41943.0,30.6,0.5,No,Excellent,9
+Manitoba,female,74,62957.0,30.0,6.3,no,Good,10
+Manitoba,M,31,59818.0,25.9,2.7,No,Very Good,2
+Saskatchewan,female,79,60576.0,30.1,6.2,No,Good,4
+Newfoundland and Labrador,Male,45,118019.0,24.0,3.6,No,Good,3
+British Columbia,male,62,79128.0,25.9,6.4,No,Good,7
+Prince Edward Island,Male,66,82907.0,32.0,4.0,No,Poor,6
+Alberta,male,48,42472.0,31.6,5.2,yes,Very Good,4
+Manitoba,F,46,64921.0,22.3,4.9,no,Very Good,5
+Manitoba,Female,46,82306.0,,4.7,No,Fair,4
+Newfoundland and Labrador,Female,72,57509.0,27.7,4.2,No,Excellent,9
+Saskatchewan,Male,42,96161.0,35.8,3.0,No,Good,6
+British Columbia,F,35,53946.0,17.6,7.3,N,Fair,7
+Ontario,Male,40,72273.0,28.6,1.7,No,Very Good,
+Alberta,Male,30,66279.0,20.3,3.5,Yes,Fair,5
+Newfoundland and Labrador,Male,42,81286.0,24.0,3.5,no,Poor,10
+Ontario,Male,25,65190.0,25.4,4.3,N,Very Good,8
+Newfoundland and Labrador,Female,23,72582.0,25.1,2.6,No,Fair,1
+Manitoba,Female,63,73277.0,24.5,4.1,No,Fair,5
+Quebec,Female,22,63312.0,27.2,3.2,No,Very Good,3
+Alberta,Male,53,87702.0,24.5,0.3,No,Poor,9
+Manitoba,Male,67,82768.0,19.9,3.5,No,Very Good,6
+Alberta,Female,63,76228.0,31.1,1.3,Yes,Very Good,4
+Quebec,Male,46,69391.0,31.0,0.0,No,Fair,5
+Nova Scotia,female,30,93931.0,,3.8,No,Good,1
+Nova Scotia,Male,76,73283.0,19.5,4.5,No,Fair,3
+Quebec,Female,70,71866.0,28.7,4.6,No,Very Good,5
+British Columbia,Female,56,80094.0,30.6,4.6,yes,Poor,7
+British Columbia,Female,23,111932.0,22.0,0.0,No,Excellent,1
+Nova Scotia,Male,20,51193.0,27.2,0.8,N,Fair,4
+New Brunswick,Male,37,93397.0,26.6,7.4,Yes,Very Good,7
+New Brunswick,M,27,40137.0,36.4,1.4,No,Fair,2
+Prince Edward Island,Male,72,,36.8,4.7,N,Fair,6
+New Brunswick,Female,30,109502.0,18.9,2.1,No,Good,5
+Alberta,Female,35,87773.0,39.7,3.7,No,Very Good,9
+Quebec,Female,79,81413.0,22.6,2.2,No,Excellent,5
+Nova Scotia,Female,69,,32.1,4.6,No,Poor,5
+Prince Edward Island,female,31,78621.0,32.1,3.8,No,Poor,7
+Prince Edward Island,M,42,72959.0,22.2,2.6,No,Good,2
+British Columbia,Female,50,62280.0,29.7,,No,Good,5
+British Columbia,Female,59,72202.0,26.7,4.0,No,Excellent,4
+Ontario,Male,76,81968.0,30.0,1.1,Yes,Excellent,5
+Quebec,Female,72,62656.0,28.4,4.4,No,Excellent,7
+Manitoba,female,79,61874.0,33.2,8.8,No,Fair,6
+Manitoba,Male,20,50795.0,27.6,6.2,Yes,Good,4
+Alberta,Female,32,85815.0,26.4,4.9,No,Very Good,5
+Alberta,F,53,88906.0,32.7,3.3,No,Good,8
+Newfoundland and Labrador,Male,21,82633.0,30.1,0.0,Yes,Very Good,3
+Saskatchewan,Female,40,97303.0,30.9,,No,Fair,6
+Newfoundland and Labrador,female,27,79757.0,,6.1,Yes,Good,5
+Prince Edward Island,Male,76,85840.0,22.0,1.9,No,Excellent,5
+Alberta,Male,21,84077.0,24.4,2.1,no,Good,2
+British Columbia,Male,27,76169.0,24.1,3.2,N,Excellent,8
+Prince Edward Island,M,30,67384.0,31.1,1.4,No,Good,4
+Nova Scotia,Male,27,122283.0,32.1,1.0,No,Poor,7
+British Columbia,Male,53,68961.0,26.4,3.4,No,Good,4
+Nova Scotia,Male,40,64682.0,34.4,1.7,N,Fair,4
+Manitoba,Male,75,86680.0,34.0,2.0,Y,Good,8
+Prince Edward Island,male,34,83037.0,28.4,1.9,Yes,Fair,7
+British Columbia,Male,51,49904.0,23.1,4.5,Yes,Very Good,6
+Prince Edward Island,male,59,100454.0,35.1,3.0,No,Excellent,7
+Prince Edward Island,male,57,76116.0,26.9,3.1,N,Good,5
+Quebec,M,68,55781.0,27.8,4.7,N,Fair,5
+Quebec,Male,30,101776.0,25.5,3.2,Yes,Good,4
+Manitoba,M,49,90514.0,22.8,2.9,No,Very Good,7
+Ontario,male,68,52709.0,19.9,4.4,Yes,Very Good,4
+British Columbia,Male,72,113544.0,30.4,4.8,No,Fair,8
+Saskatchewan,female,56,91176.0,23.3,3.2,N,Good,5
+Prince Edward Island,M,59,77796.0,42.5,3.7,No,Good,5
+Prince Edward Island,Male,72,109804.0,,1.9,Yes,Good,7
+Quebec,M,57,81186.0,20.9,1.8,No,Fair,5
+Newfoundland and Labrador,Female,77,77438.0,29.8,5.0,No,Excellent,5
+Ontario,male,26,64794.0,34.8,4.4,Y,Fair,5
+New Brunswick,F,39,89637.0,27.5,4.4,No,Fair,7
+Newfoundland and Labrador,Female,25,87532.0,30.1,4.1,N,Fair,4
+Newfoundland and Labrador,female,23,78294.0,18.0,3.6,No,Very Good,5
+British Columbia,Female,47,62200.0,23.8,4.9,Yes,Good,5
+Newfoundland and Labrador,female,32,80599.0,21.8,5.4,No,Fair,7
+Quebec,male,43,76604.0,17.7,5.3,Yes,Good,5
+Manitoba,Male,45,51331.0,27.8,3.3,No,Very Good,9
+Saskatchewan,Female,57,48564.0,,6.3,No,Good,5
+Alberta,Female,77,89303.0,20.6,4.0,Yes,Excellent,5
+Ontario,Male,71,25962.0,24.5,4.8,Yes,Good,5
+New Brunswick,Male,41,82108.0,23.0,4.1,Yes,Fair,2
+Alberta,Female,38,68438.0,29.2,4.0,Yes,Excellent,3
+Nova Scotia,Male,66,104165.0,28.7,2.0,N,Very Good,4
+Saskatchewan,Male,25,68131.0,31.7,4.9,no,Good,8
+Alberta,female,52,200000.0,31.0,9.2,Yes,Very Good,5
+Newfoundland and Labrador,female,44,70062.0,32.9,2.8,No,Good,4
+Ontario,female,29,80275.0,27.2,3.6,No,Good,8
+New Brunswick,Female,56,92737.0,28.7,2.6,no,Very Good,8
+New Brunswick,M,38,68749.0,29.8,2.5,No,Very Good,8
+Alberta,male,29,97931.0,27.9,6.6,No,Good,3
+British Columbia,Male,59,58126.0,25.2,2.2,No,Very Good,4
+Ontario,Male,28,83892.0,25.5,2.6,N,Good,9
+Prince Edward Island,female,60,96453.0,23.1,0.3,No,Poor,6
+Prince Edward Island,Male,28,91201.0,29.3,2.0,No,Excellent,5
+British Columbia,Female,45,116329.0,26.7,0.1,No,Good,7
+Ontario,F,68,62731.0,23.9,4.8,No,Very Good,7
+Quebec,Male,32,50417.0,23.9,,N,Very Good,4
+Ontario,Male,66,58113.0,21.1,2.8,No,Good,6
+Newfoundland and Labrador,F,63,91209.0,32.1,0.2,No,Good,7
+Newfoundland and Labrador,male,74,87958.0,27.6,5.3,No,Excellent,3
+Quebec,Male,28,80045.0,22.9,2.0,No,Very Good,5
+New Brunswick,M,63,55541.0,31.2,6.1,No,Very Good,3
+Quebec,M,77,93337.0,24.4,2.9,No,Good,3
+Alberta,male,66,53506.0,20.2,2.2,no,Good,4
+Manitoba,male,29,101179.0,32.3,3.1,No,Poor,6
+New Brunswick,Female,69,135149.0,24.5,5.0,No,Good,5
+Newfoundland and Labrador,Male,24,85329.0,,3.0,No,Fair,4
+Ontario,male,55,89662.0,27.4,2.5,Yes,Very Good,5
+Quebec,Female,49,68143.0,32.9,3.1,No,Excellent,3
+British Columbia,male,51,41796.0,27.3,1.0,Yes,Good,6
+Alberta,female,50,65946.0,21.2,4.3,No,Good,8
+Prince Edward Island,Male,19,56142.0,29.9,0.0,Yes,Very Good,5
+New Brunswick,male,50,49060.0,24.8,2.6,No,Fair,5
+Alberta,Male,77,112447.0,36.6,5.0,No,Excellent,6
+Prince Edward Island,M,45,83457.0,27.2,4.1,No,Good,1
+Saskatchewan,Male,35,85594.0,16.0,4.7,No,Fair,6
+Manitoba,male,80,71820.0,29.0,3.4,N,Fair,10
+Saskatchewan,male,24,74543.0,36.9,5.8,No,Excellent,5
+Quebec,Female,48,97291.0,35.1,5.3,No,Fair,5
+Prince Edward Island,male,50,,36.4,4.4,No,Very Good,7
+Ontario,female,48,88614.0,22.1,5.4,No,Fair,9
+Quebec,male,76,74080.0,31.8,5.0,No,Fair,7
+British Columbia,female,44,71157.0,23.6,2.6,Yes,Excellent,1
+British Columbia,F,79,49862.0,28.3,0.8,No,Fair,6
+Quebec,Female,22,38445.0,20.8,4.3,No,Poor,10
+Ontario,Female,64,72769.0,24.0,4.6,No,Good,7
+Nova Scotia,Male,55,79130.0,23.8,5.7,No,Excellent,3
+Prince Edward Island,female,33,52277.0,31.7,1.6,Yes,Good,6
+Quebec,male,32,77311.0,31.2,1.7,No,Fair,3
+British Columbia,Female,63,79075.0,28.6,4.4,Y,Excellent,8
+Manitoba,Male,58,34880.0,20.4,3.4,No,Very Good,3
+Prince Edward Island,M,56,,25.6,0.0,No,Excellent,5
+Nova Scotia,Female,21,86145.0,23.5,4.3,No,Very Good,3
+New Brunswick,female,55,85741.0,31.5,0.0,No,Very Good,4
+Manitoba,Male,79,54927.0,33.1,1.6,N,Good,8
+Saskatchewan,F,19,81169.0,32.5,6.2,No,Good,5
+Quebec,Male,47,98448.0,,7.1,No,Very Good,4
+Newfoundland and Labrador,Male,49,93541.0,13.5,1.1,N,Very Good,3
+Newfoundland and Labrador,M,74,76094.0,18.4,2.8,No,Excellent,1
+Ontario,M,35,68640.0,34.3,3.6,No,Good,3
+New Brunswick,Male,47,65413.0,25.2,7.1,Yes,Good,5
+Ontario,Female,63,87356.0,23.4,2.5,Yes,Good,7
+New Brunswick,female,21,81902.0,35.4,2.5,No,Very Good,4
+Newfoundland and Labrador,M,68,90588.0,33.5,,No,Good,8
+Quebec,Female,69,80637.0,,,No,Very Good,4
+Saskatchewan,Female,63,94375.0,25.7,4.9,No,Very Good,5
+Quebec,female,58,79892.0,26.5,0.5,No,Poor,3
+Manitoba,female,65,93694.0,28.3,3.2,Yes,Good,7
+Prince Edward Island,female,67,95416.0,35.2,0.2,Yes,Very Good,10
+Ontario,male,74,61909.0,29.3,,No,Excellent,2
+Alberta,Male,44,41837.0,30.8,5.2,No,Good,4
+Prince Edward Island,M,46,108870.0,33.0,3.4,N,Very Good,8
+Alberta,M,58,83133.0,21.4,2.9,Yes,Good,2
+Quebec,female,30,43710.0,31.0,2.0,No,Good,6
+Saskatchewan,Male,71,63724.0,25.7,3.1,No,Poor,8
+Manitoba,Male,66,93437.0,14.6,4.1,No,Excellent,5
+Nova Scotia,female,57,72406.0,16.6,5.5,No,Excellent,6
+Alberta,Male,37,67759.0,22.1,,yes,Good,9
+Prince Edward Island,F,39,106018.0,29.9,1.8,No,Good,9
+Manitoba,Female,45,57054.0,27.8,3.8,No,Poor,5
+British Columbia,female,59,62037.0,28.1,3.3,no,Very Good,4
+Prince Edward Island,M,67,82228.0,37.0,4.3,Yes,Good,3
+Prince Edward Island,Female,60,85809.0,20.9,4.0,yes,Very Good,7
+Saskatchewan,Female,76,87927.0,27.1,2.9,No,Poor,2
+Ontario,male,78,96225.0,28.7,2.4,No,Very Good,5
+Manitoba,male,62,,23.5,3.0,yes,Good,5
+Manitoba,Female,41,87788.0,27.3,5.8,No,Very Good,4
+Quebec,male,55,72816.0,19.2,2.0,No,Very Good,6
+Nova Scotia,F,44,79254.0,34.2,3.4,No,Fair,10
+Newfoundland and Labrador,Female,57,80151.0,23.8,3.9,No,Good,5
+Quebec,Male,69,82302.0,37.4,6.6,No,Very Good,4
+New Brunswick,Female,41,93451.0,27.0,2.9,No,Very Good,7
+Quebec,Female,49,,32.3,5.4,No,Poor,6
+New Brunswick,Male,20,78884.0,26.9,6.0,No,Good,8
+Saskatchewan,Male,64,61817.0,27.0,3.4,No,Good,6
+Ontario,female,48,79353.0,24.3,3.1,Yes,Very Good,5
+Prince Edward Island,Female,46,77440.0,27.8,2.8,No,Very Good,1
+Quebec,F,51,81864.0,28.8,3.0,Yes,Poor,2
+Manitoba,Male,31,122131.0,23.3,5.2,Yes,Very Good,1
+Quebec,Male,55,67525.0,26.6,4.0,No,Very Good,
+Prince Edward Island,female,64,86446.0,24.1,4.0,Yes,Very Good,2
+New Brunswick,M,40,99369.0,38.7,1.2,No,Poor,8
+Newfoundland and Labrador,Female,26,79960.0,26.8,1.6,No,Good,5
+Saskatchewan,Male,42,124757.0,34.9,7.8,No,Good,5
+Saskatchewan,Male,30,70439.0,26.2,3.1,no,Fair,3
+Nova Scotia,male,41,84482.0,28.5,2.0,N,Good,7
+New Brunswick,Female,57,62024.0,,6.4,No,Poor,4
+Newfoundland and Labrador,Male,25,70970.0,25.0,4.1,no,Fair,3
+Ontario,Male,65,82979.0,28.3,4.7,N,Very Good,8
+Nova Scotia,Female,32,94926.0,35.1,3.2,No,Good,6
+Quebec,F,74,84382.0,28.3,2.9,No,Very Good,5
+British Columbia,male,64,103182.0,34.1,3.2,Yes,Poor,7
+Newfoundland and Labrador,Female,35,76101.0,30.4,0.7,No,Good,5
+British Columbia,Male,53,71357.0,,3.3,No,Good,6
+New Brunswick,Male,24,132080.0,26.9,4.1,Yes,Very Good,3
+Saskatchewan,Female,24,85885.0,39.2,7.2,No,Very Good,10
+British Columbia,female,78,63610.0,24.8,3.7,no,Good,
+Alberta,M,68,64115.0,23.4,0.0,No,Very Good,8
+Manitoba,M,27,59146.0,21.1,3.3,No,Fair,5
+New Brunswick,F,35,96731.0,38.9,9.0,No,Very Good,7
+Nova Scotia,F,30,70712.0,31.3,5.2,No,Fair,7
+Prince Edward Island,F,42,80547.0,25.5,1.9,N,Good,8
+Newfoundland and Labrador,Male,36,76730.0,,4.7,No,Fair,3
+New Brunswick,Male,38,92630.0,30.6,2.0,No,Excellent,7
+Nova Scotia,Female,51,61065.0,37.0,0.8,No,Good,9
+British Columbia,male,29,56489.0,19.5,2.8,Yes,Very Good,5
+Saskatchewan,Male,73,,25.9,3.7,No,Good,5
+Quebec,M,63,90019.0,24.9,0.0,Y,Good,4
+Alberta,male,65,84651.0,17.3,1.2,No,Fair,4
+Prince Edward Island,male,28,61811.0,32.5,3.5,No,Excellent,9
+Saskatchewan,Male,62,91550.0,25.8,2.7,No,Very Good,3
+Quebec,Male,70,63123.0,30.9,4.3,No,Fair,3
+Nova Scotia,Male,29,67569.0,39.0,1.1,No,Very Good,9
+Prince Edward Island,M,65,59121.0,25.4,4.9,No,Good,7
+Newfoundland and Labrador,male,40,,25.1,1.1,No,Poor,10
+British Columbia,female,67,90668.0,27.8,,No,Good,4
+Saskatchewan,Female,48,90100.0,32.1,0.1,no,Fair,5
+Manitoba,Female,68,102944.0,24.4,1.3,No,Fair,4
+British Columbia,Female,27,134253.0,,4.3,Yes,Very Good,6
+British Columbia,female,42,43815.0,32.5,6.8,No,Good,1
+British Columbia,female,35,63232.0,29.1,4.1,No,Excellent,7
+Prince Edward Island,Male,33,65676.0,17.0,4.6,No,Very Good,6
+New Brunswick,F,37,60984.0,21.1,3.5,No,Very Good,5
+Newfoundland and Labrador,Male,42,56448.0,34.7,1.4,No,Very Good,4
+Newfoundland and Labrador,M,26,72007.0,29.2,2.5,No,Excellent,3
+Prince Edward Island,Male,62,53668.0,23.4,1.1,No,Good,7
+Quebec,Female,52,250000.0,26.3,0.9,No,Good,3
+Newfoundland and Labrador,M,70,79034.0,27.3,4.3,No,Good,6
+Ontario,Male,62,87621.0,30.9,1.3,No,Excellent,10
+Saskatchewan,Female,27,88155.0,20.4,4.1,Yes,Fair,8
+Manitoba,Female,22,90060.0,23.0,0.9,No,Very Good,2
+Alberta,Male,44,70532.0,28.6,4.1,No,Very Good,4
+Quebec,female,48,120423.0,26.7,2.5,N,Good,6
+Quebec,M,33,82689.0,30.1,6.3,No,Excellent,5
+Newfoundland and Labrador,M,67,40750.0,21.1,4.1,No,Good,2
+Alberta,Female,54,57952.0,29.0,6.0,No,Fair,6
+Alberta,male,65,43190.0,32.7,2.0,No,Very Good,5
+Prince Edward Island,Male,24,78347.0,29.6,3.6,No,Good,9
+Quebec,Male,69,75564.0,27.9,1.5,Y,Poor,5
+Prince Edward Island,Male,30,68631.0,26.7,2.7,Yes,Poor,8
+Prince Edward Island,F,46,,23.0,3.0,Yes,Fair,
+Manitoba,M,45,88980.0,26.8,2.0,Yes,Very Good,3
+Quebec,female,69,92522.0,33.5,1.1,Yes,Excellent,7
+Quebec,Female,35,59379.0,26.6,0.7,N,Good,7
+British Columbia,Female,33,220000.0,22.8,0.0,No,Fair,3
+Manitoba,male,39,78736.0,24.7,1.4,No,Good,5
+Quebec,male,40,81460.0,28.2,4.8,No,Excellent,2
+Saskatchewan,Female,29,40874.0,,0.3,No,Very Good,5
+Quebec,Male,29,74394.0,29.6,0.8,No,Good,7
+Manitoba,Male,32,78281.0,29.8,7.1,Yes,Fair,4
+Ontario,F,47,73697.0,31.6,2.2,No,Excellent,5
+New Brunswick,Female,39,61732.0,34.3,4.1,Yes,Excellent,3
+Ontario,F,42,67209.0,32.2,4.8,No,Poor,4
+Quebec,Male,63,74463.0,22.5,4.8,No,Very Good,9
+Quebec,male,33,79816.0,22.7,0.5,No,Fair,5
+Newfoundland and Labrador,Male,75,90096.0,26.8,3.0,Y,Poor,3
+Ontario,Male,65,99617.0,24.9,0.3,Yes,Very Good,5
+Saskatchewan,Male,29,72113.0,21.5,8.4,Yes,Good,2
+Manitoba,Male,37,68877.0,25.0,0.3,no,Good,3
+Manitoba,M,29,86753.0,24.8,1.4,No,Excellent,8
+Nova Scotia,Female,35,90217.0,23.8,1.4,No,Very Good,5
+Newfoundland and Labrador,male,41,69316.0,25.6,0.5,Yes,Poor,9
+Alberta,Female,26,93808.0,33.1,6.2,No,Very Good,5
+Newfoundland and Labrador,Female,18,97592.0,28.2,8.3,No,Very Good,5
+Alberta,male,45,103834.0,,2.5,N,Good,7
+Prince Edward Island,Male,62,113566.0,28.1,0.9,No,Excellent,1
+Manitoba,F,37,60672.0,25.7,0.0,No,Very Good,6
+New Brunswick,female,72,78278.0,27.2,3.0,No,Fair,5
+Newfoundland and Labrador,female,41,78226.0,28.5,2.9,Yes,Fair,8
+New Brunswick,Female,74,76039.0,29.4,2.2,No,Very Good,7
+Newfoundland and Labrador,Male,32,65015.0,37.6,3.9,No,Excellent,3
+Manitoba,F,51,48289.0,23.0,4.3,No,Fair,8
+Ontario,Female,66,79854.0,31.5,4.1,No,Fair,5
+Saskatchewan,Male,21,62633.0,,2.9,No,Very Good,3
+Quebec,Female,76,79720.0,19.3,1.3,No,Poor,6
+Newfoundland and Labrador,female,40,62119.0,31.1,4.8,No,Poor,5
+British Columbia,male,49,56007.0,33.5,3.5,No,Excellent,8
+British Columbia,female,57,82686.0,22.9,5.3,No,Very Good,6
+British Columbia,female,58,81018.0,27.2,5.1,No,Excellent,6
+Nova Scotia,Male,19,89586.0,18.6,0.7,No,Very Good,7
+Manitoba,F,72,121717.0,20.9,0.6,No,Good,7
+Prince Edward Island,Female,57,83546.0,32.4,2.0,No,Excellent,7
+Saskatchewan,male,80,87702.0,24.9,1.4,No,Good,8
+British Columbia,Male,47,56449.0,21.7,5.0,Yes,Good,6
+Ontario,F,56,52262.0,,4.2,No,Excellent,6
+Ontario,Female,45,109657.0,24.6,5.7,No,Very Good,8
+Alberta,Male,74,59530.0,24.8,4.3,No,Excellent,5
+Prince Edward Island,Female,70,57121.0,30.9,3.9,N,Fair,5
+Manitoba,Male,75,77218.0,21.4,5.9,N,Excellent,9
+Newfoundland and Labrador,Male,49,76196.0,22.7,4.4,Yes,Very Good,9
+Quebec,male,67,59950.0,28.0,3.6,No,Very Good,5
+Ontario,Female,40,71901.0,32.0,6.5,No,Excellent,4
+Newfoundland and Labrador,F,47,102588.0,33.4,3.7,no,Good,8
+Quebec,Female,65,61880.0,23.9,2.9,No,Very Good,7
+Ontario,female,23,50127.0,31.9,1.8,No,Very Good,6
+Saskatchewan,Female,62,,23.3,4.9,No,Very Good,
+Prince Edward Island,male,18,87846.0,36.3,6.0,No,Excellent,6
+Nova Scotia,male,54,65590.0,21.5,3.4,No,Very Good,5
+Ontario,Female,48,46357.0,33.8,6.1,No,Poor,4
+Newfoundland and Labrador,F,47,63108.0,23.9,0.0,No,Fair,5
+Newfoundland and Labrador,Female,49,76906.0,,3.4,No,Excellent,6
+Newfoundland and Labrador,Male,48,101313.0,30.2,3.4,N,Excellent,
+Prince Edward Island,male,43,57268.0,22.1,2.0,No,Excellent,7
+British Columbia,M,46,76310.0,24.6,8.3,No,Poor,8
+Prince Edward Island,Male,53,91503.0,31.1,3.4,No,Good,7
+Alberta,Female,66,30375.0,32.5,2.7,Yes,Very Good,5
+Newfoundland and Labrador,M,52,98676.0,26.8,3.6,N,Very Good,
+Manitoba,female,58,54351.0,27.4,0.0,No,Fair,5
+New Brunswick,F,70,84640.0,31.0,2.0,No,Very Good,3
+Nova Scotia,male,80,82934.0,27.9,5.5,N,Fair,7
+Nova Scotia,male,24,,20.7,2.2,Yes,Good,6
+Nova Scotia,Female,62,,23.1,1.8,No,Fair,10
+New Brunswick,F,32,,28.4,6.1,No,Poor,8
+New Brunswick,Female,30,62304.0,33.3,6.2,Yes,Fair,7
+Quebec,female,67,80764.0,35.3,4.5,No,Excellent,6
+Newfoundland and Labrador,Female,22,74100.0,31.1,2.6,No,Very Good,6
+Manitoba,male,71,,28.6,3.0,no,Excellent,3
+Alberta,female,66,93787.0,30.9,1.9,No,Good,2
+Manitoba,Female,80,90169.0,23.9,1.5,Y,Good,3
+Prince Edward Island,M,60,73715.0,26.4,1.4,No,Good,nan
+Newfoundland and Labrador,Female,72,41073.0,23.1,2.3,No,Very Good,1
+Newfoundland and Labrador,male,25,68890.0,21.0,,yes,Good,4
+Saskatchewan,Female,74,86327.0,28.9,0.4,No,Very Good,5
+New Brunswick,Female,28,56191.0,28.1,3.9,No,Very Good,5
+Alberta,Female,37,90625.0,30.6,4.0,Yes,Excellent,4
+Nova Scotia,Male,26,96168.0,29.9,6.9,No,Fair,4
+Nova Scotia,Male,43,80537.0,28.4,2.2,N,Good,9
+British Columbia,male,65,16724.0,30.0,4.1,No,Fair,7
+British Columbia,male,34,52438.0,27.0,4.1,No,Poor,4
+Ontario,male,69,115724.0,29.3,3.0,No,Very Good,5
+Quebec,Male,56,67069.0,23.6,5.0,No,Good,5
+Saskatchewan,Female,57,38317.0,,,No,Very Good,4
+Saskatchewan,Male,77,102705.0,30.5,4.2,No,Fair,4
+Quebec,female,45,78267.0,23.9,,No,Excellent,7
+Saskatchewan,M,39,100099.0,27.5,2.8,No,Excellent,4
+Nova Scotia,Male,80,83539.0,24.1,0.8,No,Good,3
+British Columbia,male,53,87171.0,,1.9,No,Excellent,5
+Alberta,Male,56,85260.0,21.6,2.3,No,Fair,5
+Alberta,Female,36,91950.0,,1.3,Yes,Very Good,1
+Manitoba,Male,31,123549.0,32.5,4.4,No,Excellent,5
+Alberta,Female,28,97420.0,29.9,5.9,No,Very Good,7
+New Brunswick,male,32,46393.0,37.1,1.7,No,Very Good,6
+Alberta,M,30,86933.0,26.3,4.1,No,Good,10
+Saskatchewan,Male,65,100830.0,42.4,1.4,N,Very Good,8
+Alberta,male,21,102054.0,26.1,2.9,Yes,Very Good,8
+Quebec,female,57,69468.0,28.5,,No,Fair,10
+Nova Scotia,F,77,101299.0,,4.7,no,Fair,7
+British Columbia,male,66,96555.0,29.1,2.1,No,Very Good,6
+British Columbia,Male,43,129450.0,31.4,5.5,Y,Very Good,
+New Brunswick,male,21,63000.0,26.6,3.0,No,Good,4
+Prince Edward Island,Female,70,67852.0,36.1,2.2,No,Excellent,
+Nova Scotia,F,18,71878.0,,1.0,No,Very Good,4
+Prince Edward Island,Female,60,68196.0,28.6,4.0,No,Good,6
+Newfoundland and Labrador,female,60,60200.0,22.7,5.3,No,Good,4
+Saskatchewan,Male,30,22746.0,16.0,4.0,No,Very Good,4
+New Brunswick,Female,64,,26.5,8.0,No,Very Good,6
+Alberta,M,29,85387.0,24.2,6.4,no,Good,5
+Saskatchewan,male,32,,23.3,2.9,No,Good,1
+Manitoba,Female,69,116708.0,40.6,2.9,No,Very Good,2
+Prince Edward Island,F,79,78268.0,25.9,4.4,N,Very Good,3
+Newfoundland and Labrador,M,34,103821.0,19.9,1.8,No,Very Good,3
+Saskatchewan,Female,76,83228.0,23.7,5.8,No,Poor,6
+Nova Scotia,male,75,94528.0,26.9,4.2,No,Very Good,6
+British Columbia,Female,66,83585.0,29.9,4.0,Yes,Good,7
+Newfoundland and Labrador,male,26,105376.0,30.0,4.9,Yes,Poor,7
+Manitoba,Female,36,79119.0,30.6,6.9,No,Very Good,7
+Manitoba,Male,60,87922.0,24.0,3.8,No,Very Good,6
+New Brunswick,M,80,85327.0,28.9,3.3,No,Good,6
+Nova Scotia,F,69,72234.0,22.8,6.5,Yes,Very Good,8
+Ontario,M,44,86100.0,24.1,,No,Good,7
+British Columbia,F,32,122688.0,22.6,2.9,No,Fair,6
+Quebec,female,78,72592.0,21.3,3.5,Yes,Good,8
+New Brunswick,female,35,86389.0,32.5,3.9,No,Good,1
+Ontario,female,39,103156.0,30.6,4.2,No,Very Good,
+British Columbia,Female,78,100805.0,32.1,0.8,Yes,Very Good,5
+Manitoba,Female,53,78234.0,27.4,0.4,No,Very Good,8
+Nova Scotia,Male,34,30332.0,31.1,1.7,N,Fair,8
+Manitoba,male,18,88334.0,18.4,1.6,No,Good,2
+Newfoundland and Labrador,Female,45,33611.0,31.5,2.2,No,Fair,8
+Prince Edward Island,Male,80,107399.0,28.1,4.8,No,Very Good,3
+Quebec,male,45,81389.0,30.3,3.2,No,Fair,3
+Prince Edward Island,Female,62,97993.0,29.1,3.9,Y,Good,5
+Nova Scotia,Male,33,59958.0,22.3,1.1,N,Very Good,5
+Nova Scotia,female,66,180000.0,19.7,2.6,N,Very Good,2
+Ontario,M,66,83215.0,23.6,4.7,No,Good,7
+Nova Scotia,Male,56,77328.0,,4.7,No,Good,7
+New Brunswick,Male,66,68169.0,,2.1,Yes,Very Good,7
+Manitoba,Female,54,79693.0,20.4,3.8,No,Good,4
+Ontario,female,41,133349.0,22.3,7.9,No,Fair,5
+Manitoba,female,64,94691.0,,3.5,No,Excellent,5
+Prince Edward Island,Male,70,98990.0,25.4,2.1,No,Good,9
+New Brunswick,female,70,94879.0,20.4,3.2,N,Good,1
+Quebec,Male,31,107589.0,20.1,3.7,Yes,Fair,3
+Prince Edward Island,Female,60,74199.0,23.1,3.2,Yes,Good,5
+Prince Edward Island,F,18,36905.0,27.6,3.4,N,Good,3
+Quebec,Male,54,74228.0,21.3,0.6,No,Good,5
+Newfoundland and Labrador,Male,53,94235.0,26.6,1.6,No,Good,5
+Saskatchewan,Female,40,58604.0,32.5,3.2,No,Good,4
+Manitoba,male,80,74473.0,20.7,3.2,No,Excellent,
+Saskatchewan,F,73,64165.0,26.2,2.4,Yes,Excellent,
+New Brunswick,F,20,108041.0,,,No,Fair,5
+Prince Edward Island,Male,31,92989.0,25.1,3.6,No,Fair,4
+New Brunswick,Male,31,91031.0,24.3,5.3,No,Very Good,5
+Prince Edward Island,female,74,90432.0,,3.3,No,Excellent,5
+Prince Edward Island,Female,50,77255.0,,4.3,No,Excellent,2
+Ontario,M,63,81951.0,32.7,,No,Poor,6
+British Columbia,male,69,54296.0,29.3,4.6,Yes,Good,4
+New Brunswick,Male,66,34271.0,25.5,4.3,Yes,Poor,8
+Manitoba,female,23,81002.0,29.6,5.2,No,Very Good,6
+Ontario,Male,26,84480.0,28.8,4.9,No,Very Good,8
+Ontario,Female,42,102185.0,32.3,4.7,No,Good,3
+Manitoba,male,39,109427.0,24.5,3.3,No,Good,4
+Nova Scotia,Female,65,109400.0,27.4,4.0,No,Good,3
+Quebec,female,27,58040.0,26.9,5.6,No,Very Good,
+Quebec,male,41,70955.0,30.7,2.2,No,Poor,8
+Quebec,F,32,,,2.2,No,Very Good,8
+Manitoba,F,29,128638.0,32.3,3.9,No,Very Good,3
+Ontario,Female,28,107602.0,29.5,4.3,No,Very Good,4
+Manitoba,Male,30,100388.0,20.6,1.9,No,Good,5
+Saskatchewan,female,53,70244.0,33.2,3.4,No,Very Good,6
+Saskatchewan,F,43,60336.0,38.4,,No,Very Good,2
+Nova Scotia,Female,45,93778.0,32.2,0.0,No,Fair,2
+Manitoba,Female,48,,34.3,3.1,No,Fair,6
+New Brunswick,Female,64,73231.0,27.6,3.2,N,Very Good,1
+New Brunswick,Male,72,75704.0,18.9,3.2,Y,Good,4
+Prince Edward Island,male,51,109858.0,18.0,6.3,N,Fair,6
+New Brunswick,Female,58,70906.0,28.5,1.1,No,Fair,6
+Manitoba,female,64,29215.0,24.2,1.9,No,Fair,5
+Saskatchewan,female,61,88089.0,22.6,0.0,No,Good,4
+British Columbia,female,26,,26.9,,No,Very Good,7
+Manitoba,Female,79,78853.0,30.3,2.7,No,Fair,6
+Quebec,Female,28,76266.0,19.9,,No,Very Good,4
+Prince Edward Island,female,43,,25.0,5.7,Yes,Good,5
+Newfoundland and Labrador,female,59,93807.0,34.7,5.2,Yes,Good,6
+Quebec,Female,43,47343.0,21.8,3.7,N,Fair,9
+New Brunswick,M,33,67660.0,31.5,2.8,Yes,Very Good,7
+Quebec,Male,76,91681.0,24.8,5.6,No,Excellent,8
+New Brunswick,M,22,65718.0,29.9,3.5,No,Good,4
+Ontario,Male,33,45824.0,32.7,1.9,No,Poor,4
+Saskatchewan,Male,80,91371.0,30.9,0.1,N,Good,5
+Nova Scotia,male,63,100462.0,31.7,2.6,No,Fair,5
+New Brunswick,Male,23,77100.0,21.4,5.0,N,Very Good,3
+Saskatchewan,Male,65,38783.0,32.8,8.1,No,Fair,
+Prince Edward Island,Male,79,92119.0,22.9,3.6,No,Excellent,7
+New Brunswick,Female,24,44802.0,28.5,2.0,Yes,Very Good,5
+British Columbia,female,44,84176.0,28.5,1.1,No,Good,7
+Nova Scotia,Male,47,60251.0,29.6,4.6,No,Very Good,6
+New Brunswick,male,26,54803.0,28.9,0.0,No,Poor,7
+Alberta,female,30,69162.0,23.0,4.6,no,Very Good,
+New Brunswick,Male,28,74334.0,20.5,5.1,No,Fair,5
+Newfoundland and Labrador,Male,29,,31.6,4.4,Y,Very Good,5
+Newfoundland and Labrador,M,43,89774.0,28.1,,Yes,Good,7
+New Brunswick,female,47,69079.0,32.9,4.6,no,Poor,4
+Nova Scotia,male,32,97604.0,27.0,3.8,No,Very Good,1
+British Columbia,female,36,83623.0,20.2,1.9,No,Poor,3
+New Brunswick,Male,30,64049.0,32.0,7.2,No,Fair,5
+Alberta,Female,68,60681.0,25.3,2.8,Yes,Very Good,5
+Manitoba,female,31,45050.0,28.9,5.1,Y,Good,9
+Alberta,Male,75,83815.0,24.0,0.0,No,Excellent,6
+Alberta,female,51,70908.0,35.4,6.1,No,Very Good,5
+Quebec,Female,68,30556.0,22.8,6.4,No,Very Good,5
+Prince Edward Island,female,58,,25.5,3.6,No,Good,8
+Quebec,Female,34,,27.7,4.6,Yes,Fair,4
+Ontario,Female,55,109514.0,,4.6,Yes,Excellent,5
+Prince Edward Island,Male,35,43944.0,28.9,,Yes,Fair,3
+Manitoba,Male,25,49173.0,35.3,4.6,No,Good,8
+Saskatchewan,female,34,100199.0,24.7,1.9,Yes,Good,6
+New Brunswick,Male,35,105135.0,29.2,2.3,yes,Good,4
+Alberta,Male,26,63100.0,13.5,,No,Very Good,5
+Quebec,Male,19,65358.0,27.0,5.4,No,Very Good,6
+New Brunswick,Male,77,90325.0,25.6,2.1,No,Very Good,5
+Quebec,female,50,31458.0,23.1,2.0,No,Excellent,4
+Manitoba,Female,43,40776.0,32.6,2.2,No,Good,4
+Prince Edward Island,F,76,72385.0,25.6,5.0,No,Good,6
+Prince Edward Island,Male,32,108998.0,26.3,1.5,No,Poor,4
+Alberta,male,43,69285.0,25.3,4.2,No,Very Good,4
+New Brunswick,Female,71,80019.0,17.6,5.0,No,Good,2
+Nova Scotia,Female,57,100676.0,21.5,3.3,no,Good,5
+Saskatchewan,M,43,120138.0,32.0,5.5,No,Fair,5
+Quebec,F,34,66463.0,16.7,2.9,No,Very Good,5
+Alberta,M,20,77663.0,23.4,3.1,Yes,Very Good,6
+Nova Scotia,Male,23,114441.0,25.2,1.5,No,Excellent,7
+Prince Edward Island,Male,28,47556.0,35.9,5.5,No,Poor,7
+Ontario,male,67,,31.0,2.0,Yes,Excellent,6
+New Brunswick,Female,58,57634.0,24.4,4.2,No,Fair,5
+Newfoundland and Labrador,female,45,80049.0,33.7,3.4,No,Good,4
+Prince Edward Island,male,67,,,1.4,Yes,Fair,3
+Saskatchewan,male,28,58840.0,32.2,2.3,yes,Good,4
+Quebec,female,31,58338.0,20.4,6.3,No,Good,5
+British Columbia,female,42,83528.0,32.6,3.9,No,Fair,4
+Newfoundland and Labrador,Male,75,97911.0,25.2,1.5,No,Good,5
+Newfoundland and Labrador,Male,56,75405.0,22.1,4.1,yes,Very Good,3
+Nova Scotia,male,71,79402.0,26.1,3.2,No,Very Good,2
+Quebec,Female,33,89423.0,28.6,10.4,No,Very Good,7
+Quebec,Female,71,58568.0,24.7,4.1,No,Very Good,4
+Saskatchewan,Female,22,92794.0,30.0,2.7,No,Fair,3
+Manitoba,female,32,94387.0,24.3,6.3,No,Very Good,3
+Ontario,female,50,130073.0,30.3,0.0,no,Poor,6
+Nova Scotia,male,21,70478.0,29.4,3.7,No,Good,8
+Manitoba,Female,72,68838.0,26.9,7.5,No,Poor,4
+Ontario,Female,72,93379.0,25.0,3.3,No,Very Good,5
+Ontario,male,52,94382.0,28.0,0.0,Y,Good,7
+Saskatchewan,Female,37,67298.0,30.0,2.7,N,Very Good,1
+New Brunswick,male,24,69937.0,37.5,6.4,No,Good,
+Newfoundland and Labrador,male,56,88823.0,31.9,4.3,No,Good,10
+Saskatchewan,Male,51,61448.0,32.1,1.8,Yes,Good,1
+British Columbia,Male,65,69789.0,42.6,2.1,No,Poor,5
+Prince Edward Island,Male,55,79792.0,29.8,2.4,Y,Good,4
+Saskatchewan,M,26,97919.0,29.6,4.2,No,Very Good,5
+Alberta,male,25,65908.0,30.7,6.2,Yes,Good,4
+Saskatchewan,Male,67,,22.2,5.6,No,Poor,7
+Ontario,M,28,39668.0,25.0,4.4,No,Very Good,5
+Alberta,Female,77,52812.0,24.7,0.8,Y,Good,3
+Manitoba,Female,24,51737.0,30.4,0.8,Yes,Poor,5
+Prince Edward Island,F,63,74908.0,26.3,4.6,No,Fair,6
+New Brunswick,Male,79,54222.0,27.9,0.8,No,Good,3
+New Brunswick,Male,45,63945.0,32.6,3.0,yes,Good,2
+Manitoba,male,21,62518.0,31.5,4.1,Yes,Very Good,9
+Quebec,Male,73,69190.0,26.4,1.2,yes,Fair,4
+Alberta,male,29,104450.0,23.9,1.5,No,Very Good,5
+Prince Edward Island,Male,51,91239.0,32.9,3.3,No,Good,4
+Ontario,Male,80,78323.0,31.1,4.5,Yes,Very Good,6
+Newfoundland and Labrador,Male,64,68779.0,19.2,5.6,No,Very Good,9
+Nova Scotia,Female,20,69335.0,25.6,4.7,No,Good,6
+British Columbia,Male,69,84555.0,28.0,3.6,No,Poor,2
+New Brunswick,Male,28,89683.0,31.1,2.0,No,Good,2
+Newfoundland and Labrador,M,65,59848.0,31.8,1.4,No,Excellent,4
+Ontario,Female,57,78730.0,28.6,2.5,No,Excellent,5
+Quebec,Female,36,37368.0,30.1,4.3,Yes,Fair,2
+Nova Scotia,Male,44,82234.0,27.5,4.2,No,Very Good,7
+Prince Edward Island,Female,25,,23.8,0.0,No,Good,
+Ontario,Female,80,72399.0,25.9,1.9,N,Fair,
+Nova Scotia,male,33,114331.0,27.3,5.9,no,Very Good,9
+Quebec,Male,37,60375.0,27.0,3.7,No,Good,5
+Nova Scotia,M,49,82349.0,17.8,0.7,Yes,Good,6
+Nova Scotia,F,60,77284.0,25.2,8.2,No,Very Good,3
+Ontario,Male,49,75994.0,,3.4,No,Good,7
+Nova Scotia,Male,49,75714.0,25.8,4.3,N,Very Good,4
+Newfoundland and Labrador,Male,54,80142.0,26.0,4.3,No,Good,3
+Newfoundland and Labrador,male,72,94959.0,29.6,2.8,Yes,Poor,5
+Ontario,Male,42,,21.8,2.0,Yes,Good,4
+British Columbia,M,70,77955.0,19.1,7.7,No,Excellent,5
+British Columbia,female,67,94306.0,25.5,5.5,N,Good,7
+Saskatchewan,female,78,63965.0,31.0,5.1,No,Fair,4
+Quebec,male,75,93319.0,35.6,4.7,No,Very Good,9
+Newfoundland and Labrador,F,68,62760.0,,1.5,No,Excellent,2
+New Brunswick,Male,33,99813.0,19.9,6.1,yes,Excellent,9
+Newfoundland and Labrador,Female,66,122213.0,26.0,1.8,No,Very Good,3
+Quebec,Female,64,75558.0,28.5,4.1,Y,Good,5
+Ontario,F,36,34149.0,28.1,0.2,N,Very Good,4
+Prince Edward Island,male,60,67039.0,29.9,0.0,No,Very Good,4
+British Columbia,female,33,102638.0,22.6,4.1,N,Excellent,7
+Nova Scotia,Male,50,89062.0,27.5,1.9,No,Very Good,8
+Prince Edward Island,F,68,82978.0,29.3,0.0,No,Good,8
+Ontario,Female,29,98173.0,31.3,4.6,Yes,Fair,4
+Ontario,Female,39,87689.0,23.2,7.7,No,Good,6
+Ontario,F,68,102355.0,25.5,6.3,No,Fair,4
+Quebec,Female,46,,13.7,3.0,Yes,Poor,3
+Ontario,Female,78,108434.0,24.1,3.5,Yes,Good,3
+Newfoundland and Labrador,male,18,85176.0,24.6,5.3,No,Very Good,4
+Nova Scotia,Male,63,96105.0,,5.7,No,Excellent,6
