@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Interactive Dashboard - CP321 Assignment 4</title>
+    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>
+    <h1>COVID-19 Trends Dashboard</h1>
+    <p class="subtitle">
+        Monthly data for {{ countries | length }} countries,
+        {{ date_min }} to {{ date_max }}
+    </p>
+</header>
+
+<main>
+
+    <!-- ── Controls ────────────────────────────────────── -->
+    <section class="controls" aria-label="Chart controls">
+        <div class="control-group">
+            <label for="country-select">Country</label>
+            <select id="country-select">
+                {% for c in countries %}
+                <option value="{{ c }}"{% if c == 'Canada' %} selected{% endif %}>{{ c }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="control-group">
+            <label for="metric-select">Metric</label>
+            <select id="metric-select">
+                {% for m in metrics %}
+                <option value="{{ m.value }}"{% if m.value == 'new_cases' %} selected{% endif %}>{{ m.label }}</option>
+                {% endfor %}
+            </select>
+        </div>
+    </section>
+
+    <!-- ── Live Stats ─────────────────────────────────── -->
+    <section class="stats-row" aria-label="Summary statistics">
+        <div class="stat-pill">
+            <span class="stat-label">Peak</span>
+            <span class="stat-value" id="stat-peak">--</span>
+        </div>
+        <div class="stat-pill">
+            <span class="stat-label">Average</span>
+            <span class="stat-value" id="stat-mean">--</span>
+        </div>
+        <div class="stat-pill">
+            <span class="stat-label">Latest</span>
+            <span class="stat-value" id="stat-latest">--</span>
+        </div>
+        <div class="stat-pill">
+            <span class="stat-label">Data Points</span>
+            <span class="stat-value" id="stat-count">--</span>
+        </div>
+    </section>
+
+    <!-- ── Plotly Chart ────────────────────────────────── -->
+    <figure>
+        <div id="chart" role="img" aria-label="Interactive COVID-19 line chart"></div>
+        <figcaption>
+            Source: COVID_Country_Sample.csv (subset in the style of Our World in Data).
+            Use the controls above to switch country and metric. Hover for exact values.
+        </figcaption>
+    </figure>
+
+    <!-- ── Part E - Insights ───────────────────────────── -->
+    <section class="insights" aria-label="Insights and design choices">
+        <h2>Insights</h2>
+
+        <p>
+            I chose a line chart as the primary encoding because the data are monthly
+            time-series observations with a natural temporal ordering. Position along
+            the x-axis maps to date and position along the y-axis maps to the selected
+            metric, which are the two most accurate perceptual channels for
+            quantitative comparison (Cleveland and McGill, 1984). Each country is
+            assigned a fixed colour from the Okabe-Ito palette so that colour meaning
+            is consistent regardless of which country or metric is selected and
+            remains distinguishable for viewers with the three most common forms of
+            colour-vision deficiency.
+        </p>
+
+        <p>
+            Case counts across the five countries share a common baseline of
+            relatively low values through 2020, but diverge considerably from
+            2021 onward. The United Kingdom stands out with the largest absolute
+            spikes in the dataset: 6,112 new cases in November 2023, 4,408 in
+            March 2023, and 3,688 in August 2023, well above any other country
+            in a given month. The United States shows the next-highest peaks
+            (2,380 in February 2024 and 1,791 in February 2023), followed by
+            Canada (1,481 in April 2024). India and Japan remain comparatively
+            flat in absolute terms throughout the period. Switching to the
+            cases-per-million view reframes the picture: Canada reaches the
+            highest per-capita peak at 38.99, with the United Kingdom second
+            at 23.73, while India's per-capita figures stay below 1.0 owing
+            to its population of over 1.4 billion.
+        </p>
+
+        <p>
+            The vaccination timeline tells a complementary story. All five countries
+            show zero vaccinations through 2020, with rollout beginning in
+            January 2021. In absolute terms India administers the largest monthly
+            volumes by far (regularly exceeding one billion doses in a month),
+            which is expected given its population size. The vaccinations-per-hundred
+            metric normalises this: the United Kingdom reaches the highest
+            per-capita figure in the dataset (177.15 in March 2024), with Canada
+            close behind (144.82 in October 2024), indicating extensive booster
+            uptake beyond initial two-dose coverage. The vaccination data does
+            contain sporadic zero-valued months interspersed with high values,
+            suggesting occasional reporting gaps rather than genuine pauses in
+            administration; I retained these as-is rather than interpolating
+            because the source of the gaps is ambiguous.
+        </p>
+
+        <p>
+            A few data points appear as sharp spikes well above the surrounding
+            trend. These are flagged during cleaning (values beyond three
+            interquartile ranges above Q3) but are retained rather than removed
+            because they are plausible reporting artefacts: many jurisdictions
+            periodically dump backlogs of previously unreported cases into a single
+            monthly figure. Silently dropping these would misrepresent the
+            source data; instead I keep them and note them here so the viewer
+            can interpret the spikes in context.
+        </p>
+
+        <p>
+            It is worth emphasising that temporal co-occurrence of vaccination
+            rollout and declining case counts does not, on its own, establish a
+            causal relationship. Seasonality, behavioural changes, prior infection
+            rates, and policy shifts all contribute to the observed trends.
+            Correlation is not causation, and this dashboard is intended for
+            exploratory visual analysis rather than causal inference.
+        </p>
+
+        <h3>Design Choices</h3>
+
+        <p>
+            Axis labels use plain English with units rather than column names
+            from the CSV. The y-axis starts at zero to preserve proportional ink
+            (Wilke, 2019). Top and right plot borders are removed to reduce
+            chart junk. Gridlines are light and sit behind the data line.
+            The layout uses a single-column structure that reflows at narrow
+            viewport widths so the chart remains legible on mobile. Controls sit
+            above the chart following the contiguity principle: the input and its
+            effect are spatially adjacent, reducing cognitive load.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>CP321 Assignment 4 &middot; Nick Kunde-Lenny &middot; Wilfrid Laurier University</p>
+</footer>
+
+<script>
+// ── Colour map (Okabe-Ito, colourblind-friendly) ─────────
+const COLORS = {
+    "Canada":         "#0072B2",
+    "India":          "#E69F00",
+    "Japan":          "#009E73",
+    "United Kingdom": "#CC79A7",
+    "United States":  "#D55E00"
+};
+
+// ── Metric display names ─────────────────────────────────
+const METRIC_LABELS = {
+    new_cases:                "New Cases",
+    new_deaths:               "New Deaths",
+    new_vaccinations:         "New Vaccinations",
+    cases_per_million:        "Cases per Million",
+    vaccinations_per_hundred: "Vaccinations per Hundred",
+};
+
+// ── DOM refs ─────────────────────────────────────────────
+const chartDiv      = document.getElementById("chart");
+const countrySelect = document.getElementById("country-select");
+const metricSelect  = document.getElementById("metric-select");
+const statPeak      = document.getElementById("stat-peak");
+const statMean      = document.getElementById("stat-mean");
+const statLatest    = document.getElementById("stat-latest");
+const statCount     = document.getElementById("stat-count");
+
+// ── Dark-themed Plotly layout ────────────────────────────
+const layout = {
+    margin: { t: 20, r: 24, b: 50, l: 65 },
+    xaxis: {
+        title: { text: "Date", font: { size: 12, color: "#8888a0" } },
+        showgrid: false,
+        tickfont: { size: 11, color: "#8888a0" },
+        linecolor: "rgba(255,255,255,0.06)",
+        zeroline: false,
+    },
+    yaxis: {
+        title: { text: "", font: { size: 12, color: "#8888a0" } },
+        rangemode: "tozero",
+        gridcolor: "rgba(255,255,255,0.04)",
+        gridwidth: 1,
+        tickfont: { size: 11, color: "#8888a0" },
+        linecolor: "rgba(255,255,255,0.06)",
+        zeroline: false,
+    },
+    plot_bgcolor: "rgba(0,0,0,0)",
+    paper_bgcolor: "rgba(0,0,0,0)",
+    font: { family: "'DM Sans', system-ui, sans-serif", color: "#e8e8ed" },
+    hoverlabel: {
+        bgcolor: "#1c1c24",
+        bordercolor: "rgba(255,255,255,0.1)",
+        font: { size: 12, color: "#e8e8ed", family: "'DM Sans', sans-serif" },
+    },
+    showlegend: false,
+};
+
+const config = { responsive: true, displayModeBar: false };
+
+// Start with empty trace; first fetch fills it.
+Plotly.newPlot(chartDiv, [{
+    x: [], y: [], type: "scatter", mode: "lines+markers",
+    line: { width: 2.5 }, marker: { size: 5 },
+}], layout, config);
+
+// ── Number formatting ────────────────────────────────────
+function fmt(n) {
+    if (n >= 1000000) return (n / 1000000).toFixed(1) + "M";
+    if (n >= 1000) return (n / 1000).toFixed(1) + "K";
+    if (n % 1 !== 0) return n.toFixed(2);
+    return n.toLocaleString();
+}
+
+// ── Fetch + update ───────────────────────────────────────
+async function updateChart() {
+    const country = countrySelect.value;
+    const metric  = metricSelect.value;
+
+    const res  = await fetch(`/data?country=${encodeURIComponent(country)}&metric=${encodeURIComponent(metric)}`);
+    const json = await res.json();
+
+    if (json.error) { console.error(json.error); return; }
+
+    // Update stats row
+    const vals = json.values;
+    statPeak.textContent   = fmt(Math.max(...vals));
+    statMean.textContent   = fmt(vals.reduce((a, b) => a + b, 0) / vals.length);
+    statLatest.textContent = fmt(vals[vals.length - 1]);
+    statCount.textContent  = vals.length;
+
+    // Update chart
+    const trace = {
+        x: json.dates,
+        y: vals,
+        type: "scatter",
+        mode: "lines+markers",
+        line: { color: json.color, width: 2.5, shape: "spline" },
+        marker: { color: json.color, size: 4.5 },
+        fill: "tozeroy",
+        fillcolor: json.color + "12",
+        hovertemplate: "%{x|%b %Y}<br>" + METRIC_LABELS[metric] + ": %{y:,.0f}<extra></extra>",
+    };
+
+    const yTitle = METRIC_LABELS[metric] || metric;
+
+    Plotly.react(chartDiv, [trace], {
+        ...layout,
+        yaxis: { ...layout.yaxis, title: { text: yTitle, font: { size: 12, color: "#8888a0" } } },
+    }, config);
+}
+
+countrySelect.addEventListener("change", updateChart);
+metricSelect.addEventListener("change", updateChart);
+
+// Initial load.
+updateChart();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,265 @@
+/* ── CP321 A4 - COVID-19 Dashboard ──────────────────────── */
+
+/* --- Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* --- Reset & base --- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+    --clr-bg:          #0a0a0f;
+    --clr-surface:     #141419;
+    --clr-surface-2:   #1c1c24;
+    --clr-text:        #e8e8ed;
+    --clr-text-dim:    #8888a0;
+    --clr-border:      rgba(255, 255, 255, 0.06);
+    --clr-border-hover:rgba(255, 255, 255, 0.12);
+    --clr-accent:      #0072B2;
+    --clr-glow:        rgba(0, 114, 178, 0.15);
+    --radius:          10px;
+    --radius-lg:       16px;
+    --max-w:           880px;
+    --font-body:       'DM Sans', system-ui, -apple-system, sans-serif;
+    --font-mono:       'JetBrains Mono', monospace;
+}
+
+html { font-size: 16px; }
+
+body {
+    font-family: var(--font-body);
+    color: var(--clr-text);
+    background: var(--clr-bg);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+}
+
+/* --- Subtle dot grid background --- */
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 24px 24px;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* --- Layout --- */
+header, main, footer {
+    position: relative;
+    z-index: 1;
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* --- Header --- */
+header {
+    padding-top: 3rem;
+    padding-bottom: 1.25rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--clr-border);
+}
+
+header h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.2;
+    background: linear-gradient(135deg, #e8e8ed 0%, #8888a0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.subtitle {
+    margin-top: 0.4rem;
+    color: var(--clr-text-dim);
+    font-size: 0.88rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+/* --- Controls --- */
+.controls {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.control-group label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--clr-text-dim);
+}
+
+.control-group select {
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.55rem 0.85rem;
+    border: 1px solid var(--clr-border);
+    border-radius: var(--radius);
+    background: var(--clr-surface);
+    color: var(--clr-text);
+    cursor: pointer;
+    min-width: 210px;
+    transition: all 0.2s ease;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%238888a0' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    padding-right: 2rem;
+}
+
+.control-group select:hover {
+    border-color: var(--clr-border-hover);
+    background-color: var(--clr-surface-2);
+}
+
+.control-group select:focus {
+    outline: none;
+    border-color: var(--clr-accent);
+    box-shadow: 0 0 0 3px var(--clr-glow);
+}
+
+/* --- Chart card --- */
+figure {
+    background: var(--clr-surface);
+    border: 1px solid var(--clr-border);
+    border-radius: var(--radius-lg);
+    padding: 1.25rem 1.25rem 1rem;
+    margin-bottom: 2.5rem;
+    box-shadow:
+        0 0 0 1px var(--clr-border),
+        0 4px 24px rgba(0, 0, 0, 0.3),
+        0 0 80px -20px var(--clr-glow);
+    transition: box-shadow 0.3s ease;
+}
+
+figure:hover {
+    box-shadow:
+        0 0 0 1px var(--clr-border-hover),
+        0 8px 32px rgba(0, 0, 0, 0.4),
+        0 0 100px -10px var(--clr-glow);
+}
+
+#chart { width: 100%; height: 440px; }
+
+figcaption {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--clr-border);
+    font-size: 0.78rem;
+    color: var(--clr-text-dim);
+    line-height: 1.5;
+}
+
+/* --- Stats row --- */
+.stats-row {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.stat-pill {
+    background: var(--clr-surface);
+    border: 1px solid var(--clr-border);
+    border-radius: var(--radius);
+    padding: 0.6rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    flex: 1;
+    min-width: 140px;
+    transition: border-color 0.2s ease;
+}
+
+.stat-pill:hover {
+    border-color: var(--clr-border-hover);
+}
+
+.stat-pill .stat-label {
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--clr-text-dim);
+}
+
+.stat-pill .stat-value {
+    font-family: var(--font-mono);
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--clr-text);
+}
+
+/* --- Insights --- */
+.insights {
+    margin-bottom: 3rem;
+}
+
+.insights h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--clr-border);
+    letter-spacing: -0.01em;
+}
+
+.insights h3 {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--clr-accent);
+    margin-top: 2rem;
+    margin-bottom: 0.6rem;
+}
+
+.insights p {
+    margin-bottom: 1rem;
+    color: var(--clr-text-dim);
+    font-size: 0.92rem;
+    line-height: 1.75;
+}
+
+/* --- Footer --- */
+footer {
+    padding: 2rem 1.5rem;
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--clr-text-dim);
+    border-top: 1px solid var(--clr-border);
+    margin-top: 1rem;
+    letter-spacing: 0.02em;
+}
+
+/* --- Responsive --- */
+@media (max-width: 600px) {
+    header { padding-top: 2rem; }
+    header h1 { font-size: 1.35rem; }
+
+    .controls { flex-direction: column; gap: 0.75rem; }
+    .control-group select { min-width: 100%; }
+
+    #chart { height: 300px; }
+
+    .stats-row { gap: 0.5rem; }
+    .stat-pill { min-width: 100%; }
+
+    .insights h2 { font-size: 1.05rem; }
+    .insights p  { font-size: 0.88rem; }
+}
